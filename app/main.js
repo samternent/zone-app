@@ -20,7 +20,7 @@ app.on('ready', () => {
   mainWindow.loadUrl(`file://${__dirname}/client/index.html`);
 
   if (process.env.NODE_ENV === 'development') {
-    mainWindow.openDevTools();
+    // mainWindow.openDevTools();
   }
 
   mainWindow.on('closed', () => {
